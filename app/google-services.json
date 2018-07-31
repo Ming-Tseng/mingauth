@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "669686952094",
+    "firebase_url": "https://mingauth-6862c.firebaseio.com",
+    "project_id": "mingauth-6862c",
+    "storage_bucket": "mingauth-6862c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669686952094:android:fa5d31d5b32c1538",
+        "android_client_info": {
+          "package_name": "tw.org.cmtseng.mingauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669686952094-2qk6k46l25hptlejo3sghqhv80jfellp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tw.org.cmtseng.mingauth",
+            "certificate_hash": "fb5e959c79af590d16f3983ef89a289a60647f5f"
+          }
+        },
+        {
+          "client_id": "669686952094-p77qfv4ljpe09fnop67b612kujmjjojl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7zBDdOnMejcU2RSTHxdC8eXpvXRIzG9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669686952094-p77qfv4ljpe09fnop67b612kujmjjojl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
