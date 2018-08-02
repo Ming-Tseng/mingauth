@@ -34,7 +34,7 @@ public class EmailPasswordActivity extends AppCompatActivity implements View.OnC
         mStatusTextView = findViewById(R.id.status);
         mDetailTextView = findViewById(R.id.detail);
         mEmailField = findViewById(R.id.field_email); mEmailField.setText("m0921887912@gmail.com");
-        mPasswordField = findViewById(R.id.field_password);mPasswordField.setText("p@ssw0rdm");
+        mPasswordField = findViewById(R.id.field_password);
         //Buttons
         findViewById(R.id.email_sign_in_button).setOnClickListener(this);
         findViewById(R.id.email_create_account_button).setOnClickListener(this);

@@ -6,13 +6,55 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello Authentication!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/main_layout"
+      android:orientation="vertical">
+
+
+      <Button
+          android:id="@+id/btn_TangCode"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="TangCode" />
+
+      <Button
+          android:id="@+id/btn_Anonymous"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="AnonymousAuth" />
+      <Button
+          android:id="@+id/btn_Chooser"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chooser" />
+      <Button
+          android:id="@+id/btn_CustomAuth"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="CustomAuth" />
+
+      <Button
+          android:id="@+id/btn_EmailPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="EmailPassword" />
+      <Button
+          android:id="@+id/btn_FacebookLogin"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="FacebookLogin" />
+      <Button
+          android:id="@+id/btn_FirebaseUI"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="FirebaseUI" />
+      <Button
+      android:id="@+id/btn_GoogleSignIn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="GoogleSignIn" />
+  </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
